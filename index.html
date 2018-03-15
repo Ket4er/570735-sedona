@@ -12,8 +12,8 @@
         </a>
         <ul class="site-navigation">
           <li><a class="menu-active" href="#">Информация</a></li>
-          <li><a href="photo-video.html">Фото и видео</a></li>
-          <li><a href="Map.html">Карта штата</a></li>
+          <li><a class="photo-video.html" href="#">Фото и видео</a></li>
+          <li><a class="Map.html" href="#">Карта штата</a></li>
           <li class="site-navigation-current"><a href="inner.html">Гостиницы</a></li>
         </ul>
       </nav>
@@ -89,8 +89,19 @@
       <section class="choose-hotel">
         <h2>Заинтересовались?</h2>
         <p>Укажите дату предпологаемой поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="button" href="#">Поиск гостиници в Седоне</a>
-        <!--Здесь будет форма-->
+        <a class="search-hotel" href="#">Поиск гостиници в Седоне</a>
+        <form method="post" action="/search">
+          <label class="search-arrival-date" for="arrival-date">Дата заезда:</label>
+          <input type="text" id="arrival-date" name="arrival-date" required>
+          <label class="search-date-of-departure" for="date-of-depature">Дата выезда:</label>
+          <input type="text" id="date-of-depature" name="date-of-depature" required>
+          <label class="search-number-of-adults" for="number-of-adults">Взрослые:</label>
+          <input type="number" id="number-of-adults" name="number-of-adults" min="1" max="20" step="1">
+          <label class="search-number-of-childrens" for="number-of-childrens">Дети:</label>
+          <input type="number" id="number-of-childrens" name="number-of-childrens" min="1" max="20" step="1">
+          <button class="search-button" type="submit">Найти</button>
+        </form>
+
       </section>
 
       <section class="madal map">
