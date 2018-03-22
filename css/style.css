@@ -228,3 +228,138 @@ footer {
 .logo-htmlacademy:active {
   color: #bdbbbc;
 }
+
+.filters form {
+  background-color: #4876a0;
+}
+
+.filters legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filter-button {
+  font: inherit;
+  text-transform: inherit;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.filter-infrastructure {
+  font: inherit;
+  text-transform: inherit;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff
+}
+
+.filter-housing {
+  font: inherit;
+  text-transform: inherit;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff
+}
+
+.catalog-column h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.catalog-list b {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.catalog-list-button {
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+}
+
+.catalog-list-button a {
+  color: #b2b2b2;
+}
+
+.catalog-list-button-rating,
+.catalog-list-button-type {
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.catalog-list-button-price:hover {
+ color: #9ac2db;
+}
+
+.catalog-list-button-rating:hover {
+  color: #9ac2db;
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.catalog-list-button-rating:active {
+ color: #000000;
+ border: none;
+}
+.hotel-name {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.hotel-name:hover {
+  color: #81b3d2;
+}
+
+.hotel-name:active {
+  color: #cacaca;
+}
+
+.button-detail,
+.button-booking {
+ font-weight: 700;
+ color: #ffffff;
+ text-align: center;
+ vertical-align: middle;
+}
+
+.button-detail {;
+  background-color: #81b3d2;
+}
+ .button-detail:hover {
+  background-color: #669ec0;
+ }
+
+.button-detail:active {
+ color: #88b6d1;
+ background-color: #5496bd;
+}
+
+.button-booking {
+  background-color: #766357;
+}
+
+.button-booking:hover {
+  background-color: #604e43;
+}
+
+.button-booking:active {
+  color: #857871;
+  background-color: #503e33;
+}
+
+.rating-result {
+  border: 1px solid #e5e5e5;
+  background-color: #f2f2f2;
+}
