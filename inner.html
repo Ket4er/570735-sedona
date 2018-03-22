@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиници_Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
      <header class="main-header">
@@ -36,11 +39,11 @@
           </fieldset>
           <fieldset class="filter-housing">
             <legend>Тип жилья:</legend>
-            <input type="checkbox" id="filter-hotel" checked>
+            <input type="checkbox" id="filter-hotel" name="filter-hotel" checked>
             <label class="filter-variants" for="filter-hotel">Гостиница</label>
-            <input type="checkbox" id="filter-motel" checked>
+            <input type="checkbox" id="filter-motel" name="filter-motel" checked>
             <label class="filter-variants" for="filter-motel">Мотель</label>
-            <input type="checkbox" id="filter-apartment" checked>
+            <input type="checkbox" id="filter-apartment" name="filter-apartment" checked>
             <label class="filter-variants" for="filter-apartment">Апартаменты</label>
           </fieldset>
           <button class="filter-button" type="submit">Показать</button>

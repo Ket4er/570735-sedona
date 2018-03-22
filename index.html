@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
+    <meta name="description" content="предлагаем отдых в отелях и мотелях близ Седоны Тихий и спокойный отдых без туристов, еда и сувениры.">
+    <meta name="keywords" content="отдых в Аризоне, Седона, гранд каньон, мотель, гостиницы, гостиница, апартаменты, мост дьявола, visitsedona, тихий отдых, спокойный отдых, отдых, туризм, бассейн">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body>
         <header class="main-header">
       <nav class="main-navigation">
@@ -21,8 +27,8 @@
 
     <main class="container">
       <img src="img/logo.png" width="458" height="352" alt="Логотип">
-      <h1>Седона небольшой городк в Аризоне, заслуживающий большего</h1>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньен</p>
+      <h1 class="intro-title">Седона небольшой городок в Аризоне, заслуживающий большего</h1>
+      <p class="intro">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньен</p>
 
       <section class="adventage">
         <h2 class="visual-hidden">Преимущества</h2>
@@ -63,21 +69,21 @@
           </div>
         </li>
         <li class="advantage-item">
-          <div class="adventage">
+          <div class="adventage gray">
           <h3>Небольшая<br>площадь</h3>
           <p>-№3-</p>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
         </li>
         <li class="advantage-item">
-          <div class="advantage">
+          <div class="advantage gray">
             <h3>Красивая<br>дорога</h3>
             <p>-№4-</p>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно</p>
           </div>
         </li>
         <li class="advantage-item">
-          <div class="advantage">
+          <div class="advantage gray">
             <h3>Мало<br>туристов</h3>
             <p>-№5-</p>
             <p>Большиество едит в Гранд Каньен и толпится там</p>
@@ -89,22 +95,22 @@
       <section class="choose-hotel">
         <h2>Заинтересовались?</h2>
         <p>Укажите дату предпологаемой поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="search-hotel" href="#">Поиск гостиници в Седоне</a>
-        <form method="post" action="http://echo.htmlacademy.ru">
-          <label class="search-arrival-date" for="arrival-date">Дата заезда:</label>
-          <input type="text" id="arrival-date" name="arrival-date" required>
-          <label class="search-date-of-departure" for="date-of-depature">Дата выезда:</label>
-          <input type="text" id="date-of-depature" name="date-of-depature" required>
-          <label class="search-number-of-adults" for="number-of-adults">Взрослые:</label>
-          <input type="number" id="number-of-adults" name="number-of-adults" min="1" max="20" step="1">
-          <label class="search-number-of-childrens" for="number-of-childrens">Дети:</label>
-          <input type="number" id="number-of-childrens" name="number-of-childrens" min="1" max="20" step="1">
+        <button class="search-hotel-button" type="submit">Поиск гостиници в Седоне</button>
+        <form class="choose-hotel-form" method="post" action="http://echo.htmlacademy.ru">
+          <label class="arrival-date input" for="arrival-date">Дата заезда:</label>
+          <input type="text" id="arrival-date" name="arrival-date" value="24 апреля 2017" required>
+          <label class="date-of-depature input" for="date-of-depature">Дата выезда:</label>
+          <input type="text" id="date-of-depature" name="date-of-depature" value="4 июля 2017" required>
+          <label class="number-of-adults input" for="number-of-adults">Взрослые:</label>
+          <input type="number" id="number-of-adults" name="number-of-adults" min="1" max="20" step="1" value="2" required="">
+          <label class="number-of-childrens input" for="number-of-childrens">Дети:</label>
+          <input type="number" id="number-of-childrens" name="number-of-childrens" min="1" max="20" step="1" value="0" required="">
           <button class="search-button" type="submit">Найти</button>
         </form>
 
       </section>
 
-      <section class="madal map">
+      <section class="madal-map">
         <h2 class="visual-hidden">Карта</h2>
         <img src="img/map.jpg" width="1200" height="593" alt="Карта">
       </section>
