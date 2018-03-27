@@ -12,6 +12,7 @@ body {
 background-color: #ffffff;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -22,6 +23,18 @@ a {
   color: #000000;
 
   background-color: #ffffff;
+
+  min-height: 57px;
+  width: 100%;
+}
+.site-navigation {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.menu-logo {
+  width: 138px;
+  height: 70px;
 }
 
 .site-navigation {
@@ -44,6 +57,7 @@ a {
   color: #b7b7b7;
 }
 
+
 .intro-title {
   text-align: center;
   font-size: 21px;
@@ -56,27 +70,56 @@ a {
   text-align: center;
 }
 
-.adventage-blue {
+.index-logo {
+  position: absolute;
+  width: 100%;
+}
+.advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantage-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantage-image {
+  width: 800px;
+  height: 255px;
+
+}
+.recomendation-list {
+  display:flex;
+}
+
+.recomendation-item {
+  display: flex;
+}
+.advantage-blue {
   color: #ffffff;
   text-align: center;
 
   background-color: #81b3d2;
 }
 
+
 .recomendation-item h3 {
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
   text-align: center;
+
 }
 
 .recomendation-item p {
   text-align: center;
 }
 
-.adventage .gray {
+.advantage .gray {
   background-color: #eeeeee;
   text-align: center;
+  display: flex;
 }
 
 .choose-hotel h2 {
