@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
      <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
@@ -22,12 +23,12 @@
       </nav>
     </header>
 
-    <main class="container">
-      <h1 class="visual-hidden">Гостиници</h1>
+    <main class>
+      <h1 class="visually-hidden">Гостиници</h1>
 
       <section class="filters">
-        <h2 class="visual-hidden">Фильтр отелей</h2>
-        <form method="post" action="http://echo.htmlacademy.ru" >
+        <h2 class="visually-hidden">Фильтр отелей</h2>
+        <form class="filter-form" method="post" action="http://echo.htmlacademy.ru" >
           <fieldset class="filter-infrastructure">
             <legend>Инфраструктура:</legend>
             <input type="checkbox" id="filter-pool" name="filter-pool" checked>
@@ -49,8 +50,6 @@
           <button class="filter-button" type="submit">Показать</button>
         </form>
 
-
-
       </section>
 
      <section class="catalog">
@@ -59,8 +58,8 @@
       </div>
 
       <div class="catalog-list">
-        <b>Сортировка</b>
         <ul class="catalog-list-button">
+          <li><b>Сортировка</b></li>
           <li><a class="catalog-list-button-price" href="#">По цене</a></li>
           <li><a class="catalog-list-button-type" href="#">По типу</a></li>
           <li><a class="catalog-list-button-rating" href="#">По рейтингу</a></li>
@@ -74,44 +73,48 @@
       </section>
 
       <section class="Hotel-result">
-        <h2 class="visual-hidden">Результаты поиска</h2>
-        <article class="Amara resort & spa">
+        <h2 class="visually-hidden">Результаты поиска</h2>
+        <article class="amara">
           <div class="hotel-img">
             <img src="img/amara-small.jpg" width="135" height="90" alt="Amara resort & spa">
           </div>
 
+          <div class="result-list-vertical">
           <div class="result-list">
             <a class="hotel-name" href="#"><h2>Amara resort & spa</h2></a>
             <span class="result-list-hotels">Гостиница</span>
-            <span class="result-list-price">От 4000р</span>
+            <span class="result-list-price1">От 4000р</span>
           </div>
 
           <p class="result-list-button">
             <a class="button-detail" href="#">Подробнее</a>
             <a class="button-booking" href="#">Забронировать</a>
           </p>
+         </div>
 
           <div class="rating">
             <span class="stars"></span>
-            <p class="rating-result">Рейтинг: 8,5</p>
+          <p class="rating-result">Рейтинг: 8,5</p>
+
           </div>
         </article>
 
-        <article class="Desert quail inn">
+        <article class="desert">
           <div class="hotel-img">
             <img src="img/desert-small.jpg" width="135" height="90" alt="Desert quail inn">
           </div>
-
+          <div class="result-list-vertical">
           <div class="result-list">
             <a class="hotel-name" href="#"><h2>Desert quail inn</h2></a>
             <span class="result-list-hotels">Мотель</span>
-            <span class="result-list-price">От 3000р</span>
+            <span class="result-list-price2">От 3000р</span>
           </div>
 
           <p class="result-list-button">
             <a class="button-detail" href="#">Подробнее</a>
             <a class="button-booking" href="#">Забронировать</a>
           </p>
+        </div>
 
           <div class="rating">
             <span class="stars"></span>
@@ -119,21 +122,22 @@
           </div>
         </article>
 
-         <article class="Villas at poco diablo">
+         <article class="villas">
           <div class="hotel-img">
             <img src="img/villas-small.jpg" width="135" height="90" alt="Villas at poco diablo">
           </div>
-
+          <div class="result-list-vertical">
           <div class="result-list">
             <a class="hotel-name" href="#"><h2>Villas at poco diablo</h2></a>
             <span class="result-list-hotels">Апартаменты</span>
-            <span class="result-list-price">От 2000р</span>
+            <span class="result-list-price3">От 2000р</span>
           </div>
 
           <p class="result-list-button">
             <a class="button-detail" href="#">Подробнее</a>
             <a class="button-booking" href="#">Забронировать</a>
           </p>
+        </div>
 
           <div class="rating">
             <span class="stars"></span>
@@ -160,6 +164,7 @@
         <a class="logo-htmlacademy" href="http://htmlacademy.ru">logo HTML Academy</a>
       </p>
     </footer>
+  </div>
   </body>
 </html>
 
